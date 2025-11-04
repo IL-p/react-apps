@@ -11,7 +11,7 @@ export default function Body () {
     const ref = React.useRef(null);
     React.useEffect(() => {
         if (recepieShown !== '' && ref.current !== null) {
-            ref.current.scrollIntoView({behavior: 'smooth'})
+            ref.current.scrollIntoView({behavior: 'smooth'});
         }
     }, [recepieShown])
     console.log(ref)
