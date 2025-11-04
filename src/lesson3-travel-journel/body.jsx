@@ -26,7 +26,7 @@ export default function Body () {
         const newIngredient = formData.get("ingredient");
         ingredient.push(newIngredient);
         //alert(newIngredient);
-        setStateIngredients(prevStateIngredientds => [...prevStateIngredientds, newIngredient])
+        setStateIngredients(prevStateIngredientds => [...prevStateIngredientds, newIngredient]);
 
     };
     async function showReceipe () {
